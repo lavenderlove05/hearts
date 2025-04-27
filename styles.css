@@ -178,14 +178,38 @@ nav ul li a {
 .testimonials {
     background-color: #fff;
     text-align: center;
-    padding: 40px 250px;
+    padding: 40px 20px;
+    margin: 0 10px;
 }
 
 .testimonials blockquote {
     font-style: italic;
     margin-bottom: 10px;
     font-size: 1.2rem;
+    line-height: 1.6;
+    padding: 0 10px;
 }
+
+.testimonials p {
+    font-size: 1rem;
+    color: #333;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .testimonials {
+        padding: 20px 10px;
+    }
+
+    .testimonials blockquote {
+        font-size: 1rem;
+    }
+
+    .testimonials p {
+        font-size: 0.9rem;
+    }
+}
+
 
 .cta {
     text-align: center;
