@@ -65,6 +65,9 @@ nav ul li a {
 @media screen and (max-width: 768px) {
     header {
         padding: 10px 20px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 
     nav ul {
