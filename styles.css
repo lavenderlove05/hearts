@@ -41,6 +41,27 @@ nav ul li a {
     font-weight: bold;
 }
 
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    header .logo img {
+        width: 120px;
+    }
+}
+
+
 .hero {
     position: relative;
     text-align: center;
