@@ -71,7 +71,7 @@ nav ul li a {
     }
 
     nav ul {
-       display: none
+       display: block
     }
 
     nav ul li {
